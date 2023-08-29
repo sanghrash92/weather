@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <span class="material-symbols-outlined icon">
+            partly_cloudy_day
+        </span>
+        <h1>Weather App</h1>
+    </div>
+    <div class="location"></div>
+    <main class="main">
+        <form class="form" id="search">
+            <input type="text" class="input" id="searchInput" placeholder="Enter a city name">
+            <button class="btn btn-submit" id="searchBtn" type="submit">Search</button>
+        </form>
+        <div class="result" id="result">
+            <h2 id="name" class="name"></h2>
+            <h3 id="temp" class="temp"></h3>
+            <h3 id="humidity" class="humidity"></h3>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
