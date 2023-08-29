@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Header */
+
+.header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 2px 0 0 0;
+}
+
+/* Main */
+
+.main {
+    max-width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+    text-align: center;
+}
+
+.form input, button {
+    padding: 5px;
+}
+
+.main .btn:hover {
+    cursor: pointer;
+}
+
+/* Result */
+
+.result {
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+.add-on {
+    background: rgba(220, 150, 37, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 5px rgba(0, 0, 0, 0.2);
+
+}
+
